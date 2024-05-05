@@ -26,15 +26,9 @@ public class basetest {
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		}
-
-	}
-
-@Test
-	
-	public void baseurlnavigation() 
-	{
 		String baseurl = properties.getProperty("baseurl");
 		driver.get(baseurl);
+
 	}
 
 }

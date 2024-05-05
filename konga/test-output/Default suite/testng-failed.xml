@@ -5,8 +5,7 @@
     <classes>
       <class name="Basetest.basetest">
         <methods>
-          <include name="browsersetup"/>
-          <include name="baseurlnavigation"/>
+          <include name="readpropertyfile"/>
         </methods>
       </class> <!-- Basetest.basetest -->
     </classes>
