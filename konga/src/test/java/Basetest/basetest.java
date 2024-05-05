@@ -7,6 +7,7 @@ import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -14,7 +15,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class basetest {
 	public static WebDriver driver;
 	Properties properties = new Properties();
-@Test
+@BeforeTest
 	public void readpropertyfile() throws IOException {
 		// Reading Property.config file
 		FileReader filereader = new FileReader(
@@ -28,6 +29,7 @@ public class basetest {
 		}
 		String baseurl = properties.getProperty("baseurl");
 		driver.get(baseurl);
+		driver.manage().window().maximize();
 
 	}
 

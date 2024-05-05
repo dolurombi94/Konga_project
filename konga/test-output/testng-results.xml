@@ -2,16 +2,47 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-04T18:01:27 GMT-07:00" name="Default suite" finished-at="2024-05-04T18:01:39 GMT-07:00" duration-ms="12439">
+  <suite started-at="2024-05-05T13:31:15 GMT-07:00" name="Default suite" finished-at="2024-05-05T13:31:36 GMT-07:00" duration-ms="20166">
     <groups>
     </groups>
-    <test started-at="2024-05-04T18:01:27 GMT-07:00" name="Default test" finished-at="2024-05-04T18:01:39 GMT-07:00" duration-ms="12439">
-      <class name="Basetest.basetest">
-        <test-method signature="readpropertyfile()[pri:0, instance:Basetest.basetest@6c1a5b54]" started-at="2024-05-04T18:01:27 GMT-07:00" name="readpropertyfile" finished-at="2024-05-04T18:01:39 GMT-07:00" duration-ms="12362" status="PASS">
+    <test started-at="2024-05-05T13:31:15 GMT-07:00" name="Default test" finished-at="2024-05-05T13:31:36 GMT-07:00" duration-ms="20166">
+      <class name="Testcases.signupupwithvaliddetails">
+        <test-method is-config="true" signature="readpropertyfile()[pri:0, instance:Testcases.signupupwithvaliddetails@74e28667]" started-at="2024-05-05T13:31:15 GMT-07:00" name="readpropertyfile" finished-at="2024-05-05T13:31:31 GMT-07:00" duration-ms="15951" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readpropertyfile -->
-      </class> <!-- Basetest.basetest -->
+        <test-method signature="signuptestcase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcases.signupupwithvaliddetails@74e28667]" started-at="2024-05-05T13:31:31 GMT-07:00" name="signuptestcase" data-provider="validsignupData" finished-at="2024-05-05T13:31:36 GMT-07:00" duration-ms="4104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Damilola]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Olurombi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dammytest2@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[08089209574]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[rombic123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signuptestcase -->
+      </class> <!-- Testcases.signupupwithvaliddetails -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
