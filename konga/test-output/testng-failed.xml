@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testcases.signupupwithvaliddetails">
+      <class name="Testcases.validlogintest">
         <methods>
-          <include name="signuptestcase" invocation-numbers="0"/>
+          <include name="validpasswordandemail"/>
           <include name="readpropertyfile"/>
         </methods>
-      </class> <!-- Testcases.signupupwithvaliddetails -->
+      </class> <!-- Testcases.validlogintest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
