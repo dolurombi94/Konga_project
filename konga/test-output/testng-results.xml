@@ -2,32 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-06T07:54:01 GMT-07:00" name="Default suite" finished-at="2024-05-06T07:54:34 GMT-07:00" duration-ms="32536">
+  <suite started-at="2024-05-09T13:14:28 GMT-07:00" name="Default suite" finished-at="2024-05-09T13:15:11 GMT-07:00" duration-ms="43536">
     <groups>
     </groups>
-    <test started-at="2024-05-06T07:54:01 GMT-07:00" name="Default test" finished-at="2024-05-06T07:54:34 GMT-07:00" duration-ms="32536">
-      <class name="Testcases.validlogintest">
-        <test-method is-config="true" signature="readpropertyfile()[pri:0, instance:Testcases.validlogintest@74e28667]" started-at="2024-05-06T07:54:01 GMT-07:00" name="readpropertyfile" finished-at="2024-05-06T07:54:32 GMT-07:00" duration-ms="30435" status="PASS">
+    <test started-at="2024-05-09T13:14:28 GMT-07:00" name="Default test" finished-at="2024-05-09T13:15:11 GMT-07:00" duration-ms="43536">
+      <class name="Testcases.itemsSearch">
+        <test-method is-config="true" signature="readpropertyfile()[pri:0, instance:Testcases.itemsSearch@74e28667]" started-at="2024-05-09T13:14:28 GMT-07:00" name="readpropertyfile" finished-at="2024-05-09T13:14:42 GMT-07:00" duration-ms="13735" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readpropertyfile -->
-        <test-method signature="validpasswordandemail(java.lang.String,java.lang.String)[pri:0, instance:Testcases.validlogintest@74e28667]" started-at="2024-05-06T07:54:32 GMT-07:00" name="validpasswordandemail" data-provider="validsignuudata" finished-at="2024-05-06T07:54:34 GMT-07:00" duration-ms="1914" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[dammytest2@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[rombic123]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="SearchItemFunctionalityTest()[pri:0, instance:Testcases.itemsSearch@74e28667]" started-at="2024-05-09T13:14:42 GMT-07:00" name="SearchItemFunctionalityTest" finished-at="2024-05-09T13:15:11 GMT-07:00" duration-ms="29677" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validpasswordandemail -->
-      </class> <!-- Testcases.validlogintest -->
+        </test-method> <!-- SearchItemFunctionalityTest -->
+      </class> <!-- Testcases.itemsSearch -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
