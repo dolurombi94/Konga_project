@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-09T13:14:28 GMT-07:00" name="Default suite" finished-at="2024-05-09T13:15:11 GMT-07:00" duration-ms="43536">
+  <suite started-at="2024-05-10T03:14:45 GMT-07:00" name="Default suite" finished-at="2024-05-10T03:15:19 GMT-07:00" duration-ms="33893">
     <groups>
     </groups>
-    <test started-at="2024-05-09T13:14:28 GMT-07:00" name="Default test" finished-at="2024-05-09T13:15:11 GMT-07:00" duration-ms="43536">
-      <class name="Testcases.itemsSearch">
-        <test-method is-config="true" signature="readpropertyfile()[pri:0, instance:Testcases.itemsSearch@74e28667]" started-at="2024-05-09T13:14:28 GMT-07:00" name="readpropertyfile" finished-at="2024-05-09T13:14:42 GMT-07:00" duration-ms="13735" status="PASS">
+    <test started-at="2024-05-10T03:14:45 GMT-07:00" name="Default test" finished-at="2024-05-10T03:15:19 GMT-07:00" duration-ms="33893">
+      <class name="Testcases.practice">
+        <test-method is-config="true" signature="readpropertyfile()[pri:0, instance:Testcases.practice@74e28667]" started-at="2024-05-10T03:14:45 GMT-07:00" name="readpropertyfile" finished-at="2024-05-10T03:15:18 GMT-07:00" duration-ms="33003" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readpropertyfile -->
-        <test-method signature="SearchItemFunctionalityTest()[pri:0, instance:Testcases.itemsSearch@74e28667]" started-at="2024-05-09T13:14:42 GMT-07:00" name="SearchItemFunctionalityTest" finished-at="2024-05-09T13:15:11 GMT-07:00" duration-ms="29677" status="PASS">
+        <test-method signature="tryadd()[pri:0, instance:Testcases.practice@74e28667]" started-at="2024-05-10T03:15:18 GMT-07:00" name="tryadd" finished-at="2024-05-10T03:15:18 GMT-07:00" duration-ms="614" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SearchItemFunctionalityTest -->
-      </class> <!-- Testcases.itemsSearch -->
+        </test-method> <!-- tryadd -->
+      </class> <!-- Testcases.practice -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
